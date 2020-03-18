@@ -1,4 +1,4 @@
-using express-generator.
+using express-generator.<br>
 mysql connection sample project
 
 <pre>
@@ -9,7 +9,7 @@ mysql> CREATE DATABASE NODE_DB;
 mysql> USE NODE_DB;
 mysql> CREATE TABLE MEMOS(
   -> ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  -> CONTENT VARCHAR(500) NOT NULL,
+  -> CONTENT VARCHAR(500) CHARACTER SET UTF8 NOT NULL,
   -> CREATED_AT TIMESTAMP NULL DEFAULT NULL,
   -> UPDATED_AT TIMESTAMP NULL DEFAULT NULL);
   
